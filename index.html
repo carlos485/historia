@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <title>Nueva Historia</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-3 mb-3 border-bottom">
+            <h1>Nueva Historia</h1>
+      <div class="btn-toolbar mb-2 mb-md-0"> 
+    
+        <a href="#" class="btn btn-primary">
+        Guardar</a>      
+      </div>
+  </div>
+
+        <h2>Filiación</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">Paciente</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Nombre" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">Edad</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Edad" aria-label="Edad" aria-describedby="basic-addon1">
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">Sexo</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Sexo" aria-label="Edad" aria-describedby="basic-addon1">
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">Lugar de nacimiento</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Edad" aria-describedby="basic-addon1">
+                  </div>
+            </div>
+            <div class="col-sm">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">Fecha de nacimiento</span>
+                    </div>
+                    <input type="date" class="form-control" aria-label="Edad" aria-describedby="basic-addon1">
+                  </div>
+            </div>
+            <div class="col-sm">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">Procedencia</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Edad" aria-describedby="basic-addon1">
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">Ocupación</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Edad" aria-describedby="basic-addon1">
+                  </div>
+            </div>
+            <div class="col-sm">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">Teléfono</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Edad" aria-describedby="basic-addon1">
+                  </div>
+            </div>
+            <div class="col-sm">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">Correo</span>
+                    </div>
+                    <input type="email" class="form-control" aria-label="Edad" aria-describedby="basic-addon1">
+                  </div>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-sm">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">Acompañante</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Opcional" aria-label="Edad" aria-describedby="basic-addon1">
+                  </div>
+            </div>
+            <div class="col-sm">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">Parentesco</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Opcional" aria-label="Edad" aria-describedby="basic-addon1">
+                  </div>
+            </div>
+            <div class="col-sm">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">DNI</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Edad" aria-describedby="basic-addon1">
+                  </div>
+            </div>
+        </div>
+
+        <h2>Enfermedad Actual</h2>
+        <div class="row">
+            <div class="col-sm">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">Inicio</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Edad" aria-describedby="basic-addon1">
+                  </div>
+            </div>
+            <div class="col-sm">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">Curso</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Edad" aria-describedby="basic-addon1">
+                  </div>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-sm">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">Relato</span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="2" class="form-control"></textarea>
+                  </div>
+            </div>
+        </div>
+
+        <h2>Antecedentes</h2>
+        <h4>Personales</h4>
+        <div class="row">
+            <div class="col-sm">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">Parto</span>
+                    </div>
+                    <select name="" id="" class="form-control">
+                        <option value="" selected>Escoja una opción</option>
+                        <option value="">Eutocico</option>
+                        <option value="">Cesárea</option>
+                    </select>
+                  </div>
+            </div>
+            <div class="col-sm">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">Lactancia Materna</span>
+                    </div>
+                    <select name="" id="" class="form-control">
+                        <option value="" selected>Escoja una opción</option>
+                        <option value="">Exclusiva</option>
+                        <option value="">Mixta</option>
+                        <option value="">Formula</option>
+                    </select>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">Gineco-obstretico</span>
+                    </div>
+                    <select name="" id="" class="form-control">
+                        <option value="" selected>Escoja una opción</option>
+                        <option value="">FUR</option>
+                        <option value="">Menarquia</option>
+                        <option value="">Menopausia</option>
+                        <option value="">Anticoncepción</option>
+                        <option value="">Hijos</option>
+                        <option value="">Cesárea</option>
+                    </select>
+                  </div>
+            </div>
+        </div>
+
+        <h4>Familiares</h4>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">Descripción</span>
+            </div>
+            <textarea name="" id="" cols="30" rows="2" class="form-control"></textarea>
+          </div>
+
+        <h4>Estilo de Vida</h4>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">Alimentación (Descripción)</span>
+            </div>
+            <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+          </div>
+        
+        <div class="row mb-3">
+            <div class="col-sm">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">Ejercicio</span>
+                    </div>
+                    <select name="" id="" class="form-control">
+                        <option value="" selected>Escoja una opción</option>
+                        <option value="">Activo</option>
+                        <option value="">Sedentarismo</option>
+                    </select>
+                  </div>
+            </div>
+            <div class="col-sm">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">Ejercicio (Descripción)</span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                  </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <label for="" class="input-group-text">Estrés (Descripción)</label>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="3" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" value="">Colera
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" value="">Miedo
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" value="">Tristeza
+                    </label>
+                  </div>
+            </div>
+            <div class="col-md-2">
+                <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" value="">Ansiedad
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" value="">Nerviosismo
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" value="">Otro
+                    </label>
+                  </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-2">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Alcohol</span>
+                    </div>
+                    <select name="" id="" class="form-control">
+                        <option value="">--</option>
+                        <option value="">Si</option>
+                        <option value="">No</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Tabaco</span>
+                    </div>
+                    <select name="" id="" class="form-control">
+                        <option value="">--</option>
+                        <option value="">Si</option>
+                        <option value="">No</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Agregar Descripción</span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Sueño</span>
+                    </div>
+                    <select name="" id="" class="form-control">
+                        <option value=""> --------- </option>
+                        <option value="">Reparador</option>
+                        <option value="">Insuficiente</option>
+                        <option value="">Otro</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Agregar Descripción</span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Relaciones Humanas</span>
+                    </div>
+                    <select name="" id="" class="form-control">
+                        <option value=""> --------- </option>
+                        <option value="">Saludables</option>
+                        <option value="">Tóxicas</option>
+                        <option value="">Otro</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Agregar Descripción</span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <h4>Factores de Riesgo</h4>
+        <div class="row mb-3">
+            <div class="col-md-2">
+                <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" value="">Obesidad
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" value="">Desnutrición
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" value="">Drogas
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" value="">Azucar
+                    </label>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" value="">Desintegración Familiar
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" value="">Polución
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" value="">TV > 3 horas/día
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" value="">Otros
+                    </label>
+                  </div>
+            </div>
+            <div class="col-md-7">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Agregar Descripción</span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="3" class="form-control"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <h>Patológicas</h>
+            <div class="row mb-3">
+                <div class="col-md-2">
+                    <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" value="">HTA
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" value="">Diabetes
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" value="">Dislipidemia
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" value="">Hospitalización
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" value="">Reciénte
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" value="">Enf. Cardiovascular
+                        </label>
+                      </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" value="">Enf. Cerebrovascular 
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" value="">Enf. Renal crónica 
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" value="">Enf. Pulmonar Obstr. Crónica 
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" value="">Enf. Hepática
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" value="">TBC
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" value="">RMN
+                        </label>
+                      </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" value="">Cáncer 
+                        </label>
+                    </div><div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" value="">Depresión 
+                        </label>
+                    </div><div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" value="">Alergias 
+                        </label>
+                    </div><div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" value="">Otros
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Agregar Descripción</span>
+                        </div>
+                        <textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <h4>Quirúrgicas</h4>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Descripción</span>
+                </div>
+                <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+            </div>
+
+            <h4>Energética - campos inteferentes</h4>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Cicatrices</span>
+                        </div>
+                        <select name="" id="" class="form-control">
+                            <option value=""> ----------- </option>
+                            <option value="">Accidentales</option>
+                            <option value="">Quirúrgicas</option>
+                            <option value="">Vacunas</option>
+                            <option value="">Otros</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Agregar Descripción</span>
+                        </div>
+                        <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Dientes</span>
+                        </div>
+                        <select name="" id="" class="form-control">
+                            <option value="">-----------</option>
+                            <option value="">Amalgamas</option>
+                            <option value="">Endodoncias</option>
+                            <option value="">Implantes</option>
+                            <option value="">Otros</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Agregar Descripción</span>
+                        </div>
+                        <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">Odontograma</span>
+                    </div>
+                    <div class="custom-file">
+                      <input type="file" class="custom-file-input" id="inputGroupFile01">
+                      <label class="custom-file-label" for="inputGroupFile01">Buscar Archivo</label>
+                    </div>
+                  </div>
+            </div>
+
+            <h2>Examen Clínico</h2>
+            <h4>Funciones Vitales</h4>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Peso (KG)</span>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Talla (MT)</span>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">IMC</span>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">T°C</span>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Pres. Art.</span>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Frec. Respiratoria</span>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Sat O2</span>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Frec. Cardiaca</span>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+            <h4>Composición corporal</h4>
+            <div class="row mb-3">
+                <div class="col-sm">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Grasa Total</span>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Grasa Visceral</span>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Músculo</span>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Agua</span>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+            <h4>Funciones Biológicas</h4>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Apetito</span>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Sed</span>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Micción</span>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm">
+                    <div class="input-group mb-3">
+                        <div class="input-gtoup-prepend">
+                            <span class="input-group-text">Defecación</span>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Sudor</span>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Líbido</span>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+            <h4>Examen General</h4>
+            <div class="row mb-2">
+                <div class="input-group mb3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Apreciación General</span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="input-group mb3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Piel y Faneras</span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="input-group mb3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Cabeza y Cuello</span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="input-group mb3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Torax: púlmon y corazón</span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="input-group mb3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Abdomen</span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="input-group mb3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Genitourinario</span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="input-group mb3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Aparato Locomotor</span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="input-group mb3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Neurológico</span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                </div>
+            </div>
+
+            <h2>Examenes Auxiliares</h2>
+            <div class="row mb-2">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">Procedimientos Diagnosticos</span>
+                    </div>
+                    <div class="custom-file">
+                      <input type="file" class="custom-file-input" id="inputGroupFile01">
+                      <label class="custom-file-label" for="inputGroupFile01">Buscar Archivo</label>
+                    </div>
+                  </div>
+            </div>
+            <div class="row mb-2">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">Laboratorio</span>
+                    </div>
+                    <div class="custom-file">
+                      <input type="file" class="custom-file-input" id="inputGroupFile01">
+                      <label class="custom-file-label" for="inputGroupFile01">Buscar Archivo</label>
+                    </div>
+                  </div>
+            </div>
+            <div class="row mb-2">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">Imagenes</span>
+                    </div>
+                    <div class="custom-file">
+                      <input type="file" class="custom-file-input" id="inputGroupFile01">
+                      <label class="custom-file-label" for="inputGroupFile01">Buscar Archivo</label>
+                    </div>
+                  </div>
+            </div>
+            <div class="row mb-2">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">Examen bioenergético Dermatrón</span>
+                    </div>
+                    <div class="custom-file">
+                      <input type="file" class="custom-file-input" id="inputGroupFile01">
+                      <label class="custom-file-label" for="inputGroupFile01">Buscar Archivo</label>
+                    </div>
+                  </div>
+            </div>
+            <div class="row mb-2">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">Escaneo auricular acupuntural</span>
+                    </div>
+                    <div class="custom-file">
+                      <input type="file" class="custom-file-input" id="inputGroupFile01">
+                      <label class="custom-file-label" for="inputGroupFile01">Buscar Archivo</label>
+                    </div>
+                  </div>
+            </div>
+            <div class="row mb-2">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">Edad Biológica</span>
+                    </div>
+                    <div class="custom-file">
+                      <input type="file" class="custom-file-input" id="inputGroupFile01">
+                      <label class="custom-file-label" for="inputGroupFile01">Buscar Archivo</label>
+                    </div>
+                  </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-3">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Edad Biólogica</span>
+                    </div>
+                    <input type="text" class="form-control">
+                </div>
+             </div>
+             <div class="col-md-9">
+                 <div class="input-group mb-3">
+                     <div class="input-group-prepend">
+                         <span class="input-group-text">Otros</span>
+                     </div>
+                     <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                 </div>
+             </div>
+            </div>
+
+            <h2>Impresión Diagnostica</h2>
+            <div class="row mb-3">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Diagnostico Complementario</span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                </div>
+            </div>
+
+            <h4>Diagnostico Convencional</h4>
+            <div class="row mb-3">
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">CIE</span>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm d-flex justify-content-center">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Enfermedad</span>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+            <h2>Tratamiento Complementario Natural</h2>
+            <div class="row mb-3">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Alimentación</span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Estilo de Vida</span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Homeopático - Homotoxicológico </span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Nutracéutico - Ortomolecular </span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Acupuntura </span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Ozonoterapia </span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">PRP</span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Proloterapia </span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Terapia celular</span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Psicoterapia </span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Yoga terapia</span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Gimnasia cerebral </span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">PNL Terapias energéticas </span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Tratamiento estético facial</span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Tratamiento estético corporal </span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                </div>
+            </div>
+
+            <h2>Tratamiento Farmacologico</h2>
+            <div class="row mb-3">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Descripción</span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                </div>
+            </div>
+
+            <h2>Observaciones</h2>
+            <div class="row mb-3">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Descripción</span>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="1" class="form-control"></textarea>
+                </div>
+            </div>
+
+            <h2>Datos del Profesional</h2>
+            <div class="row mb-2">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Profesional de la salud</span>
+                    </div>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Colegio Profesional</span>
+                    </div>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+                
+    </div>
+</body>
+</html>
